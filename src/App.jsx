@@ -32,7 +32,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <h1 style={{ marginBottom: "1px", marginTop: "5px" }}>Orkanis</h1>
+        <h1 style={{ marginBottom: "1px" }}>Orkanis</h1>
         <h2 style={{ marginTop: "0px" }}>Organize your tasks efficiently</h2>
         <Routes>
           <Route
@@ -68,7 +68,7 @@ function ProjectTaskPage({ projects, onUpdateProject }) {
   const navigate = useNavigate();
   const project = projects.find((p) => p.id === id);
 
-  if (!project) return <div>Projeto não encontrado.</div>;
+  if (!project) return <div>Projet not found.</div>;
 
   return (
     <div>

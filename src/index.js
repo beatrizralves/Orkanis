@@ -4,4 +4,8 @@ import App from "./App";
 import "./styles.css"; // Importa o CSS global
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
