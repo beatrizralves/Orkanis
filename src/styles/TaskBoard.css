@@ -1,0 +1,46 @@
+.task-list {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.add-task-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.add-task-form input,
+.add-task-form button {
+  padding: 6px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.task-item.editing {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.task-actions select,
+.task-actions button {
+  padding: 4px;
+}
